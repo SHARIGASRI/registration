@@ -1,0 +1,376 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CASCALL ' 26 REGISTRATION </title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .event-logo {
+    width: 800px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px;
+
+    filter:
+        drop-shadow(0 0 8px rgba(212, 175, 55, 0.25))
+       
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 60px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .subtitle {
+            color: rgba(255,255,255,0.85);
+            font-size: 1.1rem;
+            margin-bottom: 50px;
+            font-weight: 400;
+        }
+
+        .buttons-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            width: 100%;
+        }
+
+        .form-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            padding: 18px 28px;
+            background: rgba(255, 255, 255, 0.95);
+            border: none;
+            border-radius: 16px;
+            color: #764ba2;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            cursor: pointer;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .form-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+            transition: left 0.5s;
+        }
+
+        .form-btn:hover::before {
+            left: 100%;
+        }
+
+        .form-btn:hover {
+            transform: translateY(-4px) scale(1.02);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+            background: #fff;
+        }
+
+        .form-btn:active {
+            transform: translateY(-1px) scale(0.98);
+        }
+
+        .btn-number {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: #fff;
+            border-radius: 10px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .btn-text {
+            flex: 1;
+            text-align: left;
+        }
+
+        .arrow-icon {
+            width: 20px;
+            height: 20px;
+            opacity: 0.6;
+            transition: all 0.3s ease;
+        }
+
+        .form-btn:hover .arrow-icon {
+            opacity: 1;
+            transform: translateX(4px);
+        }
+
+        /* Alternating accent colors for visual variety */
+        .form-btn:nth-child(3n+1) .btn-number {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+        }
+        .form-btn:nth-child(3n+2) .btn-number {
+            background: linear-gradient(135deg, #f093fb, #f5576c);
+        }
+        .form-btn:nth-child(3n+3) .btn-number {
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+        }
+
+        .form-btn:nth-child(3n+1):hover {
+            color: #667eea;
+        }
+        .form-btn:nth-child(3n+2):hover {
+            color: #f5576c;
+        }
+        .form-btn:nth-child(3n+3):hover {
+            color: #00c6ff;
+        }
+
+        .footer {
+            margin-top: 50px;
+            color: rgba(255,255,255,0.6);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            .buttons-grid { grid-template-columns: 1fr; }
+            .form-btn { padding: 16px 20px; font-size: 0.95rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img
+    src="c:\Users\devas\Downloads\upscaled-4x-LOGO KADAISIII.png"
+    alt="CASCALL'26 - THE EPIC"
+    class="event-logo"
+>
+        <h1> CASCALL'26 REGISTRATION </h1>
+        <p class="subtitle">Click any button below to open the corresponding Google Form</p>
+
+        <div class="buttons-grid">
+            <a href="https://open.spotify.com/" class="form-btn" target="_blank" rel="noopener">
+                <span class="btn-number">01</span>
+                <span class="btn-text"> Group Dance </span>
+                <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+
+            <a href="https://forms.gle/JFR168vDyXmXjxRt9" class="form-btn" target="_blank" rel="noopener">
+                <span class="btn-number">02</span>
+                <span class="btn-text"> Solo Dance </span>
+                <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+
+            <a href="https://forms.gle/pmyzDDnqZiazhZXW6" class="form-btn" target="_blank" rel="noopener">
+                <span class="btn-number">03</span>
+                <span class="btn-text"> Beat Breakers </span>
+                <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+
+            <a href="https://forms.gle/ifrMqgvsT3B8e3Km7" class="form-btn" target="_blank" rel="noopener">
+                <span class="btn-number">04</span>
+                <span class="btn-text"> Natyasastra </span>
+                <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+
+            <a href="#" class="form-btn" target="_blank" rel="noopener">
+                <span class="btn-number">05</span>
+                <span class="btn-text"> Tamilodu Vilaiyadu </span>
+                <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+
+            <a href="https://forms.gle/9HcQgK4eFbpY77P67" class="form-btn" target="_blank" rel="noopener">
+                <span class="btn-number">06</span>
+                <span class="btn-text"> Tune hunt - Isaimania </span>
+                <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+
+            <a href="https://forms.gle/S15us7XJNLw4Db6C6" class="form-btn" target="_blank" rel="noopener">
+                <span class="btn-number">07</span>
+                <span class="btn-text"> Solo swaram - solo singing </span>
+                <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+
+            <a href="#" class="form-btn" target="_blank" rel="noopener">
+                <span class="btn-number">08</span>
+                <span class="btn-text"> Wordora </span>
+                <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+
+            <a href="https://forms.gle/ikrpwFfqmSGeTBndA" class="form-btn" target="_blank" rel="noopener">
+                <span class="btn-number">09</span>
+                <span class="btn-text"> Quizora </span>
+                <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+
+            <a href="https://forms.gle/YcPg7v74JpR7BWJo9" class="form-btn" target="_blank" rel="noopener">
+                <span class="btn-number">10</span>
+                <span class="btn-text"> Corporate war </span>
+                <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+
+            <a href="https://forms.gle/881rc5jxPbhDpF3E6" class="form-btn" target="_blank" rel="noopener">
+                <span class="btn-number">11</span>
+                <span class="btn-text"> Stress interview </span>
+                <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+
+            <a href="https://forms.gle/VtuuuSFtDkZ8LE1U9" class="form-btn" target="_blank" rel="noopener">
+                <span class="btn-number">12</span>
+                <span class="btn-text"> Model united nations </span>
+                <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+
+            <a href="https://forms.gle/qzzMdXNU2vNYA1K27" class="form-btn" target="_blank" rel="noopener">
+                <span class="btn-number">13</span>
+                <span class="btn-text"> Detective dual </span>
+                <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+
+            <a href="https://forms.gle/1WtGF5vXUFTcifud6" class="form-btn" target="_blank" rel="noopener">
+                <span class="btn-number">14</span>
+                <span class="btn-text"> Fashion fiesta </span>
+                <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+
+            <a href="https://forms.gle/6TveGThQZuW73Da77" class="form-btn" target="_blank" rel="noopener">
+                <span class="btn-number">15</span>
+                <span class="btn-text"> IPL Auction </span>
+                <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+
+            <a href="https://forms.gle/2odJwvzSyWwmU2q29" class="form-btn" target="_blank" rel="noopener">
+                <span class="btn-number">16</span>
+                <span class="btn-text"> Art relay </span>
+                <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+
+            <a href="https://forms.gle/uFiHN3P2Qqr9r2o56" class="form-btn" target="_blank" rel="noopener">
+                <span class="btn-number">17</span>
+                <span class="btn-text"> Face palette </span>
+                <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+
+            <a href="https://forms.gle/x7hqo5haXmKSqp276" class="form-btn" target="_blank" rel="noopener">
+                <span class="btn-number">18</span>
+                <span class="btn-text"> Econexus </span>
+                <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+
+            <a href="https://forms.gle/AAwLmxZ1brsxCKkm7" class="form-btn" target="_blank" rel="noopener">
+                <span class="btn-number">19</span>
+                <span class="btn-text"> Mime </span>
+                <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+
+            <a href="https://forms.gle/h6Vp5Sdum6zoDbR37" class="form-btn" target="_blank" rel="noopener">
+                <span class="btn-number">20</span>
+                <span class="btn-text"> Best manager </span>
+                <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+
+            <a href="https://forms.gle/HjtNdwdFqUF83M6u8" class="form-btn" target="_blank" rel="noopener">
+                <span class="btn-number">21</span>
+                <span class="btn-text"> Reverse Thinking </span>
+                <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+
+            <a href="https://forms.gle/GHwAmuEHAEtnqZPQA" class="form-btn" target="_blank" rel="noopener">
+                <span class="btn-number">22</span>
+                <span class="btn-text"> Cyber fuse </span>
+                <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+
+            <a href="https://forms.gle/1yGmAbw2XUeUmjySA" class="form-btn" target="_blank" rel="noopener">
+                <span class="btn-number">23</span>
+                <span class="btn-text"> Chill and thrill </span>
+                <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+        </div>
+
+        <div class="footer">
+            Select a form to proceed
+        </div>
+    </div>
+</body>
+</html>
