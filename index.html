@@ -60,115 +60,7 @@
             gap: 20px;
             width: 100%;
         }
-        .countdown-wrap {
-            width: 100%;
-            max-width: 700px;
-            margin: 0 auto 45px;
-            background: rgba(0, 20, 8, 0.35);
-            border: 1px solid rgba(159, 224, 0, 0.35);
-            border-radius: 18px;
-            padding: 14px 12px;
-            backdrop-filter: blur(6px);
-            box-shadow: 0 10px 35px rgba(0,0,0,0.3), inset 0 0 30px rgba(159,224,0,0.06);
-        }
-
-        .countdown-label {
-            color: #d6ffb0;
-            font-size: clamp(0.65rem, 2.5vw, 0.85rem);
-            font-weight: 600;
-            letter-spacing: 1.5px;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-        }
-
-        .countdown-grid {
-            display: flex;
-            justify-content: center;
-            align-items: stretch;
-            gap: clamp(6px, 2vw, 14px);
-            flex-wrap: nowrap;
-        }
-
-        .countdown-unit {
-            background: linear-gradient(160deg, #123b1c, #0a220f);
-            border: 1px solid rgba(159, 224, 0, 0.4);
-            border-radius: 12px;
-            flex: 1 1 0;
-            min-width: 0;
-            padding: clamp(8px, 2.5vw, 14px) clamp(4px, 2vw, 10px);
-            box-shadow: 0 6px 18px rgba(0,0,0,0.35);
-        }
-
-        .countdown-value {
-            font-size: clamp(1.1rem, 6vw, 2.2rem);
-            font-weight: 700;
-            color: #b6ff3c;
-            text-shadow: 0 0 12px rgba(182, 255, 60, 0.5);
-            line-height: 1;
-        }
-
-        .countdown-unit-label {
-            margin-top: 4px;
-            font-size: clamp(0.5rem, 2vw, 0.7rem);
-            letter-spacing: 0.5px;
-            text-transform: uppercase;
-            color: rgba(255,255,255,0.7);
-            white-space: nowrap;
-        }
-
-        .countdown-done {
-            font-size: 1.3rem;
-            font-weight: 600;
-            color: #b6ff3c;
-        }
-
-        .details-btn-wrap {
-            display: flex;
-            justify-content: center;
-            margin: 0 0 40px;
-        }
-
-        .details-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 10px 22px;
-            background: rgba(255, 255, 255, 0.95);
-            border: 1px solid rgba(159, 224, 0, 0.5);
-            border-radius: 999px;
-            color: #146b2c;
-            font-family: 'Poppins', sans-serif;
-            font-size: 0.85rem;
-            font-weight: 600;
-            text-decoration: none;
-            cursor: pointer;
-            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        .details-btn:hover {
-            transform: translateY(-2px) scale(1.03);
-            box-shadow: 0 10px 26px rgba(0,0,0,0.3);
-            background: #fff;
-        }
-
-        .details-btn svg {
-            width: 15px;
-            height: 15px;
-            opacity: 0.7;
-            transition: transform 0.3s ease;
-        }
-
-        .details-btn:hover svg {
-            transform: translateX(3px);
-            opacity: 1;
-        }
-
-        .buttons-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-            width: 100%;
+       
 
         .form-btn {
             display: flex;
@@ -290,27 +182,7 @@
 >
         <h1> CASCALL'26 REGISTRATION </h1>
         <p class="subtitle">Click any button below to open the corresponding Google Form</p>
-          <div class="countdown-wrap">
-            <div class="countdown-label">Event begins in</div>
-            <div id="countdown" class="countdown-grid">
-                <div class="countdown-unit">
-                    <div class="countdown-value" id="cd-days">00</div>
-                    <div class="countdown-unit-label">Days</div>
-                </div>
-                <div class="countdown-unit">
-                    <div class="countdown-value" id="cd-hours">00</div>
-                    <div class="countdown-unit-label">Hours</div>
-                </div>
-                <div class="countdown-unit">
-                    <div class="countdown-value" id="cd-mins">00</div>
-                    <div class="countdown-unit-label">Minutes</div>
-                </div>
-                <div class="countdown-unit">
-                    <div class="countdown-value" id="cd-secs">00</div>
-                    <div class="countdown-unit-label">Seconds</div>
-                </div>
-            </div>
-        </div>
+        
 
         <div class="buttons-grid">
             <a href="https://forms.gle/L5em3jhNVrg7EjaBA" class="form-btn" target="_blank" rel="noopener">
